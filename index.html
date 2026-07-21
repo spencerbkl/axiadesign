@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AxiaDesign - Accueil</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><img src="images/logo.svg" alt="AxiaDesign" class="logo-icon"/> AxiaDesign</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">ACCUEIL</a></li>
+      <li><a href="about.html">À PROPOS</a></li>
+      <li><a href="service.html">SERVICES</a></li>
+      <li><a href="design.html">RÉALISATIONS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="site-search-input" placeholder="Rechercher..." autocomplete="off"/>
+      <button id="site-search-button">Chercher</button>
+      <div id="site-search-results" class="search-results"></div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Marketing Digital &amp; <span class="orange">Croissance</span> en Ligne</h1>
+      <p>AxiaDesign est une agence de marketing digital et de design graphique. Nous accompagnons les entreprises, entrepreneurs et marques dans leur croissance grâce à la stratégie de contenu, la gestion des réseaux sociaux, la publicité en ligne et la création de sites web professionnels, pour développer votre visibilité et générer des résultats concrets.</p>
+      <a href="contact.html" class="btn-join">DEMANDER UN DEVIS</a>
+    </div>
+
+    <div class="login-card">
+      <button class="btn-login-title">Connexion</button>
+      <input type="text" class="form-input" placeholder="Votre adresse email"/>
+      <input type="password" class="form-input" placeholder="Votre mot de passe"/>
+      <button class="btn-login-submit">Se connecter</button>
+      <p class="signup-text">Pas encore de compte ? <a href="#" class="orange">S'inscrire</a> ici</p>
+      <p class="login-with">Se connecter avec</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-skype"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials reveal">
+    <h2>Ce que disent nos <span class="orange">clients</span></h2>
+    <div class="divider"></div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <p>Depuis qu'AxiaDesign gère nos réseaux sociaux, notre engagement a doublé en trois mois. Une équipe réactive et créative.</p>
+        <h4>Marc ENGONGA</h4>
+        <span>Fondateur, Boutique Élégance</span>
+      </div>
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <p>Les campagnes publicitaires mises en place ont généré des prospects qualifiés dès la première semaine. Résultats au rendez-vous.</p>
+        <h4>Clarisse NENG</h4>
+        <span>Directrice Marketing, Nova Santé</span>
+      </div>
+      <div class="testimonial-card">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <p>Un vrai partenaire stratégique. Ils comprennent nos objectifs et proposent des solutions digitales qui fonctionnent.</p>
+        <h4>Yannick NDONG</h4>
+        <span>CEO, Petit &amp; Fils</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners reveal">
+    <h2>Nos <span class="orange">Partenaires</span></h2>
+    <div class="divider"></div>
+
+    <div class="partners-grid">
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-novatech.svg" alt="NovaTech Solutions"/>
+        <span>NovaTech Solutions</span>
+      </div>
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-okoume.svg" alt="Groupe Okoumé"/>
+        <span>Groupe Okoumé</span>
+      </div>
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-digitalwave.svg" alt="Digital Wave Gabon"/>
+        <span>Digital Wave Gabon</span>
+      </div>
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-eburnie.svg" alt="Eburnie Corp"/>
+        <span>Eburnie Corp</span>
+      </div>
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-atlantique.svg" alt="Atlantique Média"/>
+        <span>Atlantique Média</span>
+      </div>
+      <div class="partner-card">
+        <img class="partner-logo-img" src="images/partner-libreville.svg" alt="Libreville Business Hub"/>
+        <span>Libreville Business Hub</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="AxiaDesign" class="logo-icon"/> AxiaDesign</a>
+        <p>Agence de marketing digital basée à Libreville, Gabon.</p>
+      </div>
+      <div class="footer-col">
+        <p><i class="fas fa-map-marker-alt"></i> Libreville, Gabon</p>
+        <p><i class="fas fa-phone"></i> +241 77 92 52 25</p>
+        <p><i class="fas fa-envelope"></i> karlysmr.88@gmail.com</p>
+      </div>
+      <div class="footer-col footer-hours">
+        <p class="hours-title"><i class="fas fa-clock"></i> Horaires</p>
+        <p>Lundi - Vendredi : 8h - 18h</p>
+        <p>Samedi : 9h - 13h</p>
+        <p>Dimanche : Fermé</p>
+      </div>
+      <div class="footer-col">
+        <p class="login-with">Suivez-nous</p>
+        <div class="social-icons">
+          <a href="https://wa.me/24177925225" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com/Spencer" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://tiktok.com/@silva.bkl88" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 AxiaDesign. Tous droits réservés.</p>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="https://wa.me/24177925225" target="_blank" class="btn-whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:karlysmr.88@gmail.com" class="btn-email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <script src="search-data.js" defer></script>
+  <script src="script.js" defer></script>
+
+</body>
+</html>
+
